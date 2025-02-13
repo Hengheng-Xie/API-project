@@ -1,8 +1,8 @@
 # API-project
-The current project analyzes financial stock data of a company, using the requests package. The company of interest is Carl Zeiss Meditec, which manufactures tools for eye examinations, as well as medical lasers for laser eye surgery: https://www.zeiss.com/meditec/int/home.html. The company is listed under the stock ticker AFX_X.
+The current project analyzes financial stock data of a company, using the requests package.
 
 Here are the particular tasks associated with the API project:
-- Collect data from the Franfurt Stock Exchange, for the ticker AFX_X, for the whole year 2017 (keep in mind that the date format is YYYY-MM-DD).
+- Collect data for the ticker Nvidia.(keep in mind that the date format is YYYY-MM-DD).
 - Convert the returned JSON object into a Python dictionary.
 - Calculate what the highest and lowest opening prices were for the stock in this period.
 - What was the largest change in any one day (based on High and Low price)?
